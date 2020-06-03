@@ -235,7 +235,7 @@ section {
 
 .btn--filled {
   color: #fff;
-  background-color: #699901;
+  background-color: #ffc847;
   border: 1px solid transparent;
   transition: 0.3s ease-in-out;
   text-decoration: none;
@@ -250,7 +250,7 @@ section {
 }
 .btn--filledLight {
   color: #fff;
-  background-color: #a6b100;
+  background-color: #38a9bf;
   border: 1px solid transparent;
   transition: 0.3s ease-in-out;
   text-decoration: none;
@@ -259,8 +259,8 @@ section {
 .btn--filledLight:hover {
   text-decoration: none;
   transition: 0.3s ease-in-out;
-  color: #a6b100;
-  border: 1px solid #a6b100;
+  color: #38a9bf;
+  border: 1px solid #38a9bf;
   background-color: transparent;
 }
 
@@ -674,7 +674,7 @@ button:focus {
 }
 .main-oneform__content{
   position: relative;
-  background-color: #a6b100;
+  background-color: #38a9bf;
   width: 100%;
   padding: 0rem 6rem 2rem 2rem;
   display: grid;
@@ -685,7 +685,7 @@ button:focus {
   position: absolute;
   content: '';
   height: 3rem;
-  background-color: #a6b100;
+  background-color:#38a9bf;
   width: 100%;
   top:-3rem;
 }
@@ -849,6 +849,7 @@ select option{
 /*ABOUT*/
 .main-about{
   padding-top: 0;
+  padding-bottom: 0;
 }
 .main-about__content{
   display: grid;
@@ -866,6 +867,9 @@ select option{
   background-color:#f5f5f5;
 }
 /* GALLERY */
+.main-gallery{
+  padding-top: 80px;
+}
 .main-gallery__img{
   padding-right: 1rem;
 }
@@ -1058,7 +1062,7 @@ ul.menu li a:hover, dd a:hover{
 
 .main-footer__copy{
   padding: 1rem;
-  background-color: #a6b100;
+  background-color: #38a9bf;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -1074,7 +1078,7 @@ ul.menu li a:hover, dd a:hover{
 }
 
 .main-maps{
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 100px;
 
 }
@@ -1083,9 +1087,11 @@ ul.menu li a:hover, dd a:hover{
   margin-right: 10px;
   width: 162px;
   height: 56px;
-  border: 1px solid  #a6b100;
+  border: 1px solid  #38a9bf;
+;
   border-radius: 0;
-  background-color:  #a6b100;
+  background-color:  #38a9bf;
+;
   position: relative;
   border-radius: 3px;
   font-size: 14px;
@@ -1098,7 +1104,8 @@ ul.menu li a:hover, dd a:hover{
   margin-right: 10px;
   width: 162px;
   height: 56px;
-  border: 1px solid  #a6b100;
+  border: 1px solid  #38a9bf;
+;
   border-radius: 0;
   background-color: transparent;
   position: relative;
@@ -1122,7 +1129,7 @@ ul.menu li a:hover, dd a:hover{
 .slider-for .slick-dots li:nth-child(2):after,
 .slider-for .slick-dots li:nth-child(3):after,
 .slider-for .slick-dots li:nth-child(4):after{
-  color: #a6b100;
+  color: #38a9bf;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 600;
@@ -1156,7 +1163,7 @@ ul.menu li a:hover, dd a:hover{
 
 .slider.slider-nav .slick-dots li button {
   background: transparent;
-  border: 1px solid #a6b225;
+  border: 1px solid #38a9bf;
   display: block;
   height: 20px;
   width: 20px;
@@ -1171,7 +1178,7 @@ ul.menu li a:hover, dd a:hover{
 
 .slider.slider-nav .slick-dots li.slick-active button {
   border: 1px solid transparent;
-  background: #a6b225;
+  background: #38a9bf;
 }
 .slider.slider-nav .slick-dots li.slick-active button:before,.slick-dots li button:before{
   content: '';
@@ -1190,7 +1197,7 @@ ul.menu li a:hover, dd a:hover{
 
 .slider.slider-nav .slick-prev,.slider.slider-nav .slick-next{
   z-index: 999;
-  background-color: #a6b225;
+  background-color: #38a9bf;
   width: 40px;
   height: 40px;
   border-radius: 50%;
