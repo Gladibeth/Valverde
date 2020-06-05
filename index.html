@@ -116,12 +116,12 @@
                   <strong>Un proyecto VIS </strong>
                   <p>EN LAVILLA LAURA,LA CEJA</p>
                 </div> 
-                <div class="main-banner__dates">
+                <div class="main-banner__dates main-banner__dates--two">
                   <span>Área</span>
                   <strong>49 m² </strong>
                 </div> 
                 <div class="main-banner__dates">
-                  <span>Desde <strong>$329 millones</strong>
+                  <span>Desde <strong>$122 millones</strong>
                   </span>
                   <span class="main-banner__value">Valor impuestos incluido*</span>
                 </div>
@@ -275,24 +275,24 @@
             </p>
           </div>
           <div class="main-gallery__content">
-            <div class="main-gallery__item">
+            <div class="main-gallery__item"  onclick="openModal();currentSlide(1)">
               <div class="main-gallery__img">
                 <img src="assets/img/gallery1.png" alt="">
               </div>
             </div>
-            <div class="main-gallery__item">
+            <div class="main-gallery__item" onclick="openModal();currentSlide(2)">
               <div class="main-gallery__img">
-                <img src="assets/img/gallery2.png" alt="">
+                <img  src="assets/img/gallery2.png" alt="">
               </div>
             </div>
-            <div class="main-gallery__item">
+            <div class="main-gallery__item" onclick="openModal();currentSlide(3)">
               <div class="main-gallery__img">
-                <img src="assets/img/gallery3.png" alt="">
+                <img  src="assets/img/gallery3.png" alt="">
               </div>
             </div>
-            <div class="main-gallery__item">
+            <div class="main-gallery__item" onclick="openModal();currentSlide(4)">
               <div class="main-gallery__img">
-                <img src="assets/img/gallery1.png" alt="">
+                <img  src="assets/img/gallery1.png" alt="">
               </div>
             </div>
     
@@ -366,7 +366,7 @@
               <div class="main-slidernav__boxcontent">
                 <div class="main-slidernav__content">
                   <div class="main-slidernav__item">
-                    <div class="main-slidernav__img">
+                    <div class="main-slidernav__img" onclick="openModal1();currentSlide1(1)">
                       <img src="assets/img/Planos/planos-1.jpg" alt="">
                     </div>
                   </div>
@@ -423,7 +423,7 @@
               <div class="main-slidernav__boxcontent">
                 <div class="main-slidernav__content">
                   <div class="main-slidernav__item">
-                    <div class="main-slidernav__img">
+                    <div class="main-slidernav__img" onclick="openModal1();currentSlide1(2)">
                       <img src="assets/img/Planos/planos-1.jpg" alt="">
                     </div>
                   </div>
@@ -552,7 +552,7 @@
         </div>
       </section>
       <footer>
-        <div class="container-fluid">
+        <div class="container-fluidLarge">
           <div class="main-footer__content">
             <div class="main-footer__item">
               <div class="main-footer__img">
@@ -614,15 +614,67 @@
                   <a target="_blank" href='tel:573148775701'>+ 57 3173606901</a>
                 </dd>
               </dl>
-              <a class='btn_custom btn--medium btn--filledTransparent' target="_blank" href=''>Descargar Brochure</a>
+              <a class='btn_custom btn--large btn--filledTransparent' target="_blank" href=''>Descargar Brochure</a>
             </div>
           </div>
         </div>
         <div class="main-footer__copy">
-          <a target="_blank" href="">Copyright © 2020 Branch</a>
+          <a target="_blank" href="https://branch.com.co/">Copyright © 2020 Branch</a>
         </div>
       </footer>
   </div>
+ 
+  <!-- MODAL -->
+
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <img src="assets/img/gallery1.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <img src="assets/img/gallery2.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <img src="assets/img/gallery3.png" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <img src="assets/img/gallery1.png" style="width:100%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+    </div>
+  </div>
+
+    <!-- MODAL -->
+
+    <div id="myModal1" class="modal">
+      <span class="close cursor" onclick="closeModal1()">&times;</span>
+      <div class="modal-content">
+    
+        <div class="mySlides1">
+          <img src="assets/img/Planos/planos-1.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides1">
+          <img src="assets/img/Planos/planos-1.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+  
+  
+      </div>
+    </div>
+  
+
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/slick.min.js"></script>
