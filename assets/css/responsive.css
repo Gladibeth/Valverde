@@ -2,6 +2,9 @@
   .navbar-brand{
     width: 190px;
   }
+  .main-banner{
+    margin-top: -100px;
+  }
   .navbar-toggler{
     padding-right: 0 !important;
   }
