@@ -170,6 +170,10 @@
   .next {
     right: 5rem;
   }
+  .btn--large{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

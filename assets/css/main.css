@@ -251,7 +251,7 @@ section {
 }
 
 .btn--medium {
-  padding: 8px 20px 8px 20px;
+  padding: 8px 50px 8px 50px;
   min-width: 85px;
   font-size: 20px;
 }
@@ -260,8 +260,6 @@ section {
   padding: 12px 20px 12px 20px;
   min-width: 85px;
   font-size: 14px;
-  display: flex;
-  justify-content: center;
 }
 
 .btn--filled {
