@@ -75,6 +75,8 @@ $(".hamburger").on("click", function () {
     }
   }
 });
+
+
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }

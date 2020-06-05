@@ -1,4 +1,7 @@
 @media (min-width: 0px) and (max-width: 767px) {
+  .main-slidernav__img{
+    height: auto;
+  }
   .container-fluidLarge {
     padding: 0 1rem;
   }
@@ -177,6 +180,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .main-slidernav__img{
+    height: auto;
+  }
   .container-fluidLarge {
     padding: 0 3rem;
   }
@@ -360,6 +366,9 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  .main-slidernav__img{
+    height: 400px;
+  }
   .container-fluidLarge {
     padding: 0 2rem;
   }

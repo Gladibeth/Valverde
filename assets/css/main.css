@@ -1075,6 +1075,10 @@ select option{
 }
 .main-slidernav__img img{
   width: 100%;
+  
+}
+.main-slidernav__img{
+  height: 450px;
 }
 .main-slidernav__boxcontent:focus{
   outline: none !important;
