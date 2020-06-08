@@ -51,6 +51,7 @@
           <div class="main-zone__img">
             <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
           </div>
+          <img class="mask__img__zone" src="<?php echo get_template_directory_uri();?>/assets/img/maks.png" alt="">
         </div>
         <div id="planos-proyecto"></div>
       </div>

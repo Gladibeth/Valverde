@@ -1020,11 +1020,24 @@ select option{
 .main-zone__content{
   display: grid;
   grid-template-columns: 40% 60%;
+  padding-bottom: 4rem;
 }
 .main-zone__item:nth-child(1){
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.main-zone__item:nth-child(2){
+  position: relative;
+  padding-left: 5rem;
+}
+.mask__img__zone{
+  position: absolute;
+  width: 85%;
+  height: 19rem;
+  bottom: -4rem;
+  object-fit: cover;
+  left: 0rem;
 }
 .main-zone__list{
   display: flex;
@@ -1041,9 +1054,12 @@ select option{
 }
 .main-zone__img{
   padding-top: 3rem;
+  height: 500px;
 }
 .main-zone__img img{
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*LOCATION*/

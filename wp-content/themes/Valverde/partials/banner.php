@@ -34,7 +34,7 @@
         </div>
       </div>
       <div class="main-oneform">
-        <img class="mask__form" src="<?php echo get_template_directory_uri();?>/assets/img/maks.jpg" alt="">
+        <img class="mask__form" src="<?php echo get_template_directory_uri();?>/assets/img/maks.png" alt="">
         <div class="container-fluid">
           <div class="main-oneform__content">
             <div class="main-oneform__item">
