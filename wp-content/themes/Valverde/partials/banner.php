@@ -1,8 +1,6 @@
       <div class="main-banner" id="home">
         <div class="main-banner__content">
-                    <?php $args = array( 'post_type' => 'Banner');
-                    
-                 ?>   
+            <?php $args = array( 'post_type' => 'Banner');?>   
             <?php $loop = new WP_Query( $args ); ?>
             <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
           <div class="main-banner__item">

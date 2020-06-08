@@ -9,8 +9,9 @@
                 </p>
               </div>
               <div class="main-twoform__img">
-                <img src="<?php echo get_template_directory_uri();?>/assets/img/form.png" alt="">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/form.jpg" alt="">
               </div>
+              <img class="mask__img" src="<?php echo get_template_directory_uri();?>/assets/img/maks.jpg" alt="">
             </div>
             <div class="main-twoform__item">
               <form action="">

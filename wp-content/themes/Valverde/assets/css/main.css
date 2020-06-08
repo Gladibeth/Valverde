@@ -1062,16 +1062,39 @@ select option{
 .main-twoform__content{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
+  grid-gap: 4rem;
+}
+.main-twoform__item:nth-child(1){
+  position: relative;
 }
 
+.main-twoform__item img.mask__img{
+  position: absolute;
+  width: 100%;
+  height: 17rem;
+  bottom: 0;
+  z-index: -1;
+  object-fit: cover;
+  right: -2rem;
+}
 .main-twoform__img{
-  height: 500px;
+  height: 400px;
+  position: relative;
+}
+
+.main-twoform__img:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .main-twoform__img img{
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .main-slidernav__img img{
   width: 100%;
