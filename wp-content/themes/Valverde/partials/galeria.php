@@ -7,26 +7,18 @@
             </p>
           </div>
           <div class="main-gallery__content">
-            <div class="main-gallery__item"  onclick="openModal();currentSlide(1)">
+               <?php $args = array( 'post_type' => 'galeria');
+                     $countGalery = 1;
+                 ?>   
+            <?php $loop = new WP_Query( $args ); ?>
+            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+            <div class="main-gallery__item"  onclick="openModal();currentSlide(<?php echo $countGalery; ?>)">
               <div class="main-gallery__img">
-                <img src="<?php echo get_template_directory_uri();?>/assets/img/gallery1.png" alt="">
+                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
               </div>
             </div>
-            <div class="main-gallery__item" onclick="openModal();currentSlide(2)">
-              <div class="main-gallery__img">
-                <img  src="<?php echo get_template_directory_uri();?>/assets/img/gallery2.png" alt="">
-              </div>
-            </div>
-            <div class="main-gallery__item" onclick="openModal();currentSlide(3)">
-              <div class="main-gallery__img">
-                <img  src="<?php echo get_template_directory_uri();?>/assets/img/gallery3.png" alt="">
-              </div>
-            </div>
-            <div class="main-gallery__item" onclick="openModal();currentSlide(4)">
-              <div class="main-gallery__img">
-                <img  src="<?php echo get_template_directory_uri();?>/assets/img/gallery1.png" alt="">
-              </div>
-            </div>
+          <?php $countGalery++; endwhile; ?>
+            
     
           </div>
         </div>

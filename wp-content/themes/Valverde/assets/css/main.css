@@ -1259,13 +1259,6 @@ ul.menu li a:hover, dd a:hover{
   line-height: normal;
   letter-spacing: normal;
 }
-.slider-for .slick-dots li:nth-child(1):after {
-  content: 'Urbanismo';
-}
-
-.slider-for .slick-dots li:nth-child(2):after {
-  content: '49 m²';
-}
 
 .slider-for .slick-dots li.slick-active:nth-child(1):after,
 .slider-for .slick-dots li.slick-active:nth-child(2):after,

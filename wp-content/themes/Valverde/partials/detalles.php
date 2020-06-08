@@ -10,58 +10,28 @@
               </div>
             </div>
             <div class="main-details__item">
+              
+                <?php $args = array( 'post_type' => 'detalles', 'posts_per_pege' => 4);
+                    
+                 ?>   
+            <?php $loop = new WP_Query( $args ); ?>
+              <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
               <div class="main-details__box">
                 <div class="main-details__icon">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/img/icon1.png" alt="">
+                  <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                 </div>
                 <div class="main-details__boxtext">
                   <div class="main-details__title">
-                    <p class="font-general">proyecto</p>
+                    <p class="font-general"><?php the_title(); ?></p>
                   </div>
                   <div class="main-details__description">
-                    <p class="font-general">320 apartamentos</p>
+                    <?php the_excerpt(); ?>
                   </div>
                 </div>
               </div>
-              <div class="main-details__box">
-                <div class="main-details__icon">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/img/icon2.png" alt="">
-                </div>
-                <div class="main-details__boxtext">
-                  <div class="main-details__title">
-                    <p class="font-general">Bloques</p>
-                  </div>
-                  <div class="main-details__description">
-                    <p class="font-general">15 bloques de 5 pisos</p>
-                  </div>
-                </div>
-              </div>
-              <div class="main-details__box">
-                <div class="main-details__icon">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/img/icon3.png" alt="">
-                </div>
-                <div class="main-details__boxtext">
-                  <div class="main-details__title">
-                    <p class="font-general">Aptos</p>
-                  </div>
-                  <div class="main-details__description">
-                    <p class="font-general">Apartamentos de 49 m2</p>
-                  </div>
-                </div>
-              </div>
-              <div class="main-details__box">
-                  <div class="main-details__icon">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/img/icon4.png" alt="">
-                  </div>
-                  <div class="main-details__boxtext">
-                    <div class="main-details__title">
-                      <p class="font-general">Distribución</p>
-                    </div>
-                    <div class="main-details__description">
-                      <p class="font-general">4 apartamentos por piso (Torre 5 y 13 cuentan con 6 apartamentos por piso).</p>
-                    </div>
-                  </div>
-                </div>
+            <?php endwhile; ?>
+            
+            
             </div>
           </div>
         </div>
