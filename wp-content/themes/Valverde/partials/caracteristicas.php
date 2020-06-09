@@ -1,7 +1,7 @@
 <?php $args = array( 'post_type' => 'caracteristicas', 'posts_per_page' => 1);?>   
 <?php $loop = new WP_Query( $args ); ?>
 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-  <section class="main-zone">
+  <section class="main-zone" id="caracteristica-proyecto">
     <div class="container-fluid">
       <div class="main-zone__content">
         <div class="main-zone__item">

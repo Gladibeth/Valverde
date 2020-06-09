@@ -1,5 +1,5 @@
 
-<section class="main-about">
+<section class="main-about" id="acerca-proyecto">
   <?php $args = array( 'post_type' => 'Acerca', 'posts_per_page' => 1);?>   
   <?php $loop = new WP_Query( $args ); ?>
   <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>

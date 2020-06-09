@@ -11,7 +11,7 @@
               <div class="main-twoform__img">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/form.jpg" alt="">
               </div>
-              <img class="mask__img__zone" src="<?php echo get_template_directory_uri();?>/assets/img/maks.png" alt="">
+              <img class="mask__img" src="<?php echo get_template_directory_uri();?>/assets/img/maks.png" alt="">
             </div>
             <div class="main-twoform__item">
               <form action="">
@@ -40,7 +40,7 @@
                   <input class="form-check-input" type="checkbox">
                   <label class="form-check-label font-general main-oneform__text main-oneform__textDark ">
                     Acepto
-                    <a href="<?php echo get_template_directory_uri();?>/assets/pdf/MANUAL_DE_POLITICAS_PROMOTORA.pdf" target="blank">Politicas y Privacidad</a>
+                    <a href="<?php echo get_template_directory_uri();?>/assets/pdf/MANUAL_DE_POLITICAS_PROMOTORA.pdf" target="blank">Políticas y Privacidad</a>
                   </label>
                 </div>
           

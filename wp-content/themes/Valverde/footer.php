@@ -10,10 +10,10 @@
                   </p>
               </div>
               <div class="main-footer__icon">
-                <a  target="_blank" href="#">
+                <a  target="_blank" href="https://www.facebook.com/nivelpropiedadraiz">
                   <img src="<?php echo get_template_directory_uri();?>/assets/img/fb.png" alt="">
                 </a>
-                <a  target="_blank" href="#">
+                <a  target="_blank" href="https://www.instagram.com/nivelpropiedadraiz/">
                   <img src="<?php echo get_template_directory_uri();?>/assets/img/instagram.png" alt="">
                 </a>
               </div>
@@ -22,19 +22,19 @@
               <ul class='menu'>
                 <li class='menu-title'>MENÚ</li>
                 <li>
-                  <a class='scroll-link' href='#sabaneta'>Detalles del proyecto</a>
+                  <a class='scroll-link' href='#detalles-proyecto'>Detalles del proyecto</a>
                 </li>
                 <li>
-                  <a class='scroll-link' href='#ciudadela'>Acerca del proyecto</a>
+                  <a class='scroll-link' href='#acerca-proyecto'>Acerca del proyecto</a>
                 </li>
                 <li>
-                  <a class='scroll-link' href='#video'>Galería</a>
+                  <a class='scroll-link' href='#galeria-proyecto'>Galería</a>
                 </li>
                 <li>
-                  <a class='scroll-link' href='#proyectos'>Zonas comunes</a>
+                  <a class='scroll-link' href='#caracteristica-proyecto'>Zonas comunes</a>
                 </li>
                 <li>
-                  <a class='scroll-link' href='#proyectos'>Planos del proyecto</a>
+                  <a class='scroll-link' href='#planos-proyecto'>Planos del proyecto</a>
                 </li>
                 <li>
                   <a class='scroll-link' href='#ubicacion'>Ubicación</a>

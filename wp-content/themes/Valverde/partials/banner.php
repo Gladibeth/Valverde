@@ -13,7 +13,7 @@
                 <div class="main-banner__dates main-banner__dates--first ">
                   <span>Ubicación</span>
                   <strong>Un proyecto VIS </strong>
-                  <p>EN LAVILLA LAURA,LA CEJA</p>
+                  <p>EN LAVILLA LAURA, LA CEJA</p>
                 </div> 
                 <div class="main-banner__dates main-banner__dates--two">
                   <span>Área</span>
@@ -63,10 +63,10 @@
                       <input class="form-check-input" type="checkbox">
                       <label class="form-check-label font-general main-oneform__text">
                         Acepto
-                        <a href="<?php echo get_template_directory_uri();?>/assets/pdf/MANUAL_DE_POLITICAS_PROMOTORA.pdf" target="blank">Politicas y Privacidad</a>
+                        <a href="<?php echo get_template_directory_uri();?>/assets/pdf/MANUAL_DE_POLITICAS_PROMOTORA.pdf" target="blank">Políticas y Privacidad</a>
                       </label>
                     </div>
-                  <div class="main-contact__btnbox">
+                  <div class="">
                     <a class="btn_custom btn--small btn--filled" href="#">
                       Enviar
                     </a>
