@@ -70,13 +70,13 @@
             <div class="_form_element _x86821064 _full_width " >
               
               <div class="_field-wrapper">
-                <input type="text" name="fullname" placeholder="Nombre completo*" />
+                <input type="text" name="fullname" placeholder="Nombre completo*" required/>
               </div>
             </div>
             <div class="_form_element _x80842056 _full_width " >
               
               <div class="_field-wrapper">
-                <input type="text" name="phone" placeholder="Teléfono*" />
+                <input type="text" name="phone" placeholder="Teléfono*" required />
               </div>
             </div>
             <div class="_form_element _x48647240 _full_width " >

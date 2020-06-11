@@ -40,7 +40,7 @@
               Nombre y apellido
               </label>
               <div class="_field-wrapper">
-                <input type="text" name="fullname" placeholder="" />
+                <input type="text" name="fullname" placeholder="" required />
               </div>
             </div>
             <div class="_form_element _x48647240 _full_width " >
@@ -56,7 +56,7 @@
                 Ciudad
               </label>
               <div class="_field-wrapper">
-                <input type="text" name="field[1]" value="" placeholder="" />
+                <input type="text" name="field[1]" value="" placeholder="" required />
               </div>
             </div>
             <div class="_form_element _x80842056 _full_width " >
