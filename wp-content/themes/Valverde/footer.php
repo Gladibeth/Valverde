@@ -58,7 +58,7 @@
                 </dd>
                 <dt>Celular</dt>
                 <dd>
-                  <a target="_blank" href='tel:573148775701'>+ 57 3173606901</a>
+                  <a target="_blank" href='http://api.whatsapp.com/send?phone=573148775701'>+ 57 3173606901</a>
                 </dd>
               </dl>
               <a class='btn_custom btn--large btn--filledTransparent' target="_blank" href=''>Descargar Brochure</a>

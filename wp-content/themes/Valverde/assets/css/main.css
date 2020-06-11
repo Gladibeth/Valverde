@@ -1178,6 +1178,16 @@ footer{
   font-size: 14px;
   color: #474747;
 }
+.main-footer__icon a:hover{
+  text-decoration: none !important;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: none !important;
+}
+.main-footer__icon a:hover:nth-child(1){
+  text-decoration: none !important;
+}
 .main-footer__icon a:nth-child(1){
   margin-right: 0.5rem;
 }
