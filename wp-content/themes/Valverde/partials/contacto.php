@@ -80,7 +80,7 @@
           
               <input data-autofill="false" type="hidden" name="field[4][]" value="~|">
               <div class="_row _checkbox-radio">
-                <input id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto"   >
+                <input id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto" required  >
                 <span>
                   <label for="field_4Acepto" class="font-general main-oneform__text main-oneform__textDark">
                     Acepto
