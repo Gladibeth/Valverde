@@ -61,7 +61,7 @@
                   <a target="_blank" href='http://api.whatsapp.com/send?phone=573148775701'>+ 57 3173606901</a>
                 </dd>
               </dl>
-              <a class='btn_custom btn--large btn--filledTransparent' target="_blank" href=''>Descargar Brochure</a>
+              <a class='btn_custom btn--large btn--filledTransparent' target="_blank" href='http://nivel.co/wp-content/uploads/2020/06/valverde-presentacion.pdf'>Descargar Brochure</a>
             </div>
           </div>
         </div>
