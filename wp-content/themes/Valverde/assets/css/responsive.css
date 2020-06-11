@@ -197,6 +197,13 @@
   .main-gallery__img:before, .main-slidernav__img:after{
     opacity: 1;
   }
+  ._form-content--grid{
+    grid-template-columns: 1fr !important;
+    grid-gap: 0;
+  }
+  .main-contact__btnbox button{
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -258,6 +265,7 @@
     grid-template-columns: 1fr 1fr;
     padding: 0rem 3rem 2rem 2rem;
   }
+  
   .main-oneform__title {
     font-size: 22px;
   }
