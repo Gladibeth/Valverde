@@ -4,7 +4,7 @@
   <?php $loop = new WP_Query( $args ); ?>
   <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
     <div class="main-about__content">
-      <div class="main-about__item">
+      <div class="main-about__item wow fadeInLeft"  data-wow-delay='.5s'>
         <div class="main-about__img">
           <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
         </div>

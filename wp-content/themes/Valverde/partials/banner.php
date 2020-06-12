@@ -5,7 +5,7 @@
       <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
     <div class="main-banner__item">
       <div class="mask mask-light">
-        <div class="main-banner__text">
+        <div class="main-banner__text wow fadeInUp" data-wow-delay='0.2s'>
           <div class="main-banner__title">
             <h1 class="">VALVERDE</h1>
             <span>APARTAMENTOS</span>
